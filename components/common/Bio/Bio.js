@@ -11,7 +11,7 @@ export function Bio({ className }) {
      
 
       <p className="text-base leading-7">
-        Written by Mrs and Mr Emily and Todd Huyett.
+        All bloggers played by Todd and Emily Huyett.
         
       </p>
     </div>
