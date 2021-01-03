@@ -16,7 +16,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
 
       <article>
         <header className="mb-8">
-          <h1 className="title">
+          <h1 className="post">
             {frontmatter.title}
           </h1>
           <p className="text-sm">{frontmatter.date}</p>

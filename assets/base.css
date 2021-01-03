@@ -8,6 +8,14 @@ font-family: Baskerville Old Face;
   background-color: rgba(255, 255, 255, 0.808);
 }
 
+.post {
+
+  color:rgb(131, 0, 0);
+  font-family: Baskerville;
+  font-size: 40px;
+
+}
+
 .arrow {
 
   width: 800px;
