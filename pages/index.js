@@ -8,21 +8,27 @@ export default function Home({ posts }) {
     <Layout>
       <SEO title="All posts" />
       <Bio className="my-14" />
-      {posts.map(({ frontmatter: { title, description, date }, slug }) => (
+      {posts.map(({ frontmatter: { title, author, picture, description, date }, slug }) => (
         <article key={slug}>
-          <header className="mb-2">
+    <header className="mb-2">
             <h3 className="mb-2">
               <Link href={"/post/[slug]"} as={`/post/${slug}`}>
-                <a className="title">
+                <a className="z">
                   {title}
                 </a>
+                
               </Link>
             </h3>
-            <span className="text-sm">{date}</span>
+            <span className="text-sm">{date}</span><div>{author}</div>
           </header>
+          <img src ={picture} />
           <section>
-            <p className="mb-8 text-lg">{description}</p>
-          </section>
+            <p className="mb-8 text-lg">{description}</p>  
+            </section>
+        <br />
+            <hr />  <hr />
+          <br />
+       
         </article>
       ))}
     </Layout>
