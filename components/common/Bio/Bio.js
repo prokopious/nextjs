@@ -11,8 +11,7 @@ export function Bio({ className }) {
      
 
       <p className="text-base leading-7">
-        Written by <b className="font-semibold">Emily and Todd Huyett</b>{" "}
-        {author.summary}{" "}
+        Written by Mrs and Mr Emily and Todd Huyett.
         
       </p>
     </div>

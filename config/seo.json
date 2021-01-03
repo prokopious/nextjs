@@ -1,11 +1,11 @@
 {
   "siteMetadata": {
-    "title": "Next.js Starter Blog",
+    "title": "eM",
     "author": {
-      "name": "Jose Felix",
-      "summary": "who works building clean user interfaces with React."
+      "name": "Emily Huyett",
+      "summary": "who live amongst the pines."
     },
-    "description": "A blog created with Next.js and Tailwind.css",
+    "description": "A blog created with Next.js",
     "siteUrl": "https://nextjs-starter-blog-demo.netlify.app/",
     "language": "en-US",
     "social": {
