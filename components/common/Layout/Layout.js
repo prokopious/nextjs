@@ -81,7 +81,7 @@ const SmallTitle = () => (
       <div
         className="title"
       >
-        eM
+        ←
       </div>
     </Link>
   </h1>
