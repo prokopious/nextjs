@@ -60,19 +60,12 @@ const Header = () => {
 };
 
 const LargeTitle = () => (
-  <h1>
+  
     <Link href="/">
-      <a
-        className={clsx(
-          "text-3xl font-black leading-none text-black no-underline font-display",
-          "sm:text-5xl",
-          "dark:text-white"
-        )}
-      >
-        <div className="title">eM</div>
-      </a>
+      <img src="https://www.linkpicture.com/q/logo_269.png" />
+      
     </Link>
-  </h1>
+  
 );
 
 const SmallTitle = () => (
