@@ -39,22 +39,8 @@ const Header = () => {
   const isDarkMode = resolvedTheme === "dark";
 
   return (
-    <header
-      className={clsx("flex items-center justify-between ", {
-        "mb-8": isRoot,
-        "mb-2": !isRoot,
-      })}
-    >
-      <div className={"max-w-md"}>
-        {isRoot ? <LargeTitle /> : <SmallTitle />}
-      </div>
-      {mounted && (
-        <DarkModeSwitch
-          checked={isDarkMode}
-          onChange={toggleDarkMode}
-          className={isRoot ? 28 : 24}
-        />
-      )}
+    <header>
+    
     </header>
   );
 };
