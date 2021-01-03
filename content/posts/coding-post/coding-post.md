@@ -1,14 +1,8 @@
 ---
-title: Coding Post
-picture: 'https://i.imgur.com/bX2Uk7C.jpeg'
-description: Coding is suchzzzzz a blissful activity.
-date: 2020-04-19T11:00:00.000Z
+title: We live amongst the pines.
+picture: 'https://www.linkpicture.com/q/winchester.jpg'
+description: Our Winchester home is beautiful.
+date: 2020-09-19T11:00:00.000Z
 ---
 
-```jsx
-import React from "react";
 
-const CoolComponent = () => <div>I'm a cool component!!</div>;
-
-export default CoolComponent;
-```
