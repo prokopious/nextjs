@@ -78,14 +78,11 @@ const LargeTitle = () => (
 const SmallTitle = () => (
   <h1>
     <Link href="/">
-      <a
-        className={clsx(
-          "text-2xl font-black text-black no-underline font-display",
-          "dark:text-white"
-        )}
+      <div
+        className="title"
       >
-        Next.Js Starter Blog
-      </a>
+        eM
+      </div>
     </Link>
   </h1>
 );
