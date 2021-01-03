@@ -62,7 +62,7 @@ const Header = () => {
 const LargeTitle = () => (
   
     <Link href="/">
-      <img src="https://www.linkpicture.com/q/logo_269.png" />
+      <img src="https://imgur.com/P1TtSnc.png" />
       
     </Link>
   
