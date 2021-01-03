@@ -79,7 +79,7 @@ const SmallTitle = () => (
   <h1>
     <Link href="/">
       <div
-        className="title"
+        className="titled"
       >
         ←
       </div>

@@ -1,5 +1,6 @@
 ---
-title: Codizzzzzzzzng Post
+title: Coding Post
+picture: 'https://i.imgur.com/bX2Uk7C.jpeg'
 description: Coding is suchzzzzz a blissful activity.
 date: 2020-04-19T11:00:00.000Z
 ---

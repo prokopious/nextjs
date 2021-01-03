@@ -24,6 +24,16 @@ a {
   font-family: Baskerville;
   font-size: 40px;
 }
+.titled {
+  font-family: Baskerville;
+  font-size: 40px;
+}
+
+.title:hover {
+  font-family: Baskerville;
+  font-size: 40px;
+  color: rgb(94, 87, 129);
+}
 
 p {
 
