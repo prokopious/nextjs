@@ -26,7 +26,7 @@ export default function Home({ posts }) {
             <p className="mb-8 text-lg">{description}</p>  
             </section>
         <br />
-            <hr />  <hr />
+            <hr className="hh" />
           <br />
        
         </article>

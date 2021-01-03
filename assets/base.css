@@ -1,13 +1,14 @@
 a:hover {
-  @apply underline;
+  
   color:rgb(131, 0, 0);
 }
 
 body {
 font-family: Baskerville Old Face;
 
-  background-color: rgba(255, 254, 202, 0.808);
+  background-color: rgba(255, 255, 255, 0.425);
 }
+
 
 .post {
 
@@ -17,10 +18,7 @@ font-family: Baskerville Old Face;
 
 }
 
-.arrow {
 
-  width: 800px;
-}
 
 p {
   font-family: Baskerville;
@@ -42,8 +40,8 @@ a {
 
 .titled:hover {
   font-family: Baskerville;
-  font-size: 40px;
-  color: rgb(94, 87, 129);
+  
+  color: rgb(170, 0, 0);
 }
 
 p {
@@ -73,5 +71,12 @@ font-size: 40px;
 }
 
 .z {
-  font-size: 40px;
+  font-size: 30px;
 }
+
+.hh {
+  height: 2px;
+  width: 90%;
+    background-color: black;
+  }
+  
