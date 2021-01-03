@@ -12,9 +12,7 @@ export function Layout({ children }) {
         <Header />
         <main>{children}</main>
         <footer className="text-lg font-light">
-          © {new Date().getFullYear()}, Built with{" "}
-          <a href="https://nextjs.org/">Next.js</a>
-          &#128293;
+          © {new Date().getFullYear()}, powered by Winchester Typography.
         </footer>
       </div>
     </div>
@@ -67,11 +65,10 @@ const LargeTitle = () => (
 const SmallTitle = () => (
   <h1>
     <Link href="/">
-      <div
-        className="titled"
-      >
-        ←
-      </div>
-    </Link>
+    
+            <a className="text-lg font-bold">
+              ← home
+            </a>
+          </Link>
   </h1>
 );
