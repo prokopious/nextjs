@@ -22,14 +22,15 @@ a {
 
 .title {
   font-family: Baskerville;
-  font-size: 40px;
+  font-size: 50px;
+  color: rgb(131, 0, 0);
 }
 .titled {
   font-family: Baskerville;
   font-size: 40px;
 }
 
-.title:hover {
+.titled:hover {
   font-family: Baskerville;
   font-size: 40px;
   color: rgb(94, 87, 129);
