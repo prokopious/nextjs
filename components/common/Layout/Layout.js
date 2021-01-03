@@ -69,7 +69,7 @@ const LargeTitle = () => (
           "dark:text-white"
         )}
       >
-        Next.Js Starter Blog
+        <div className="title">eM</div>
       </a>
     </Link>
   </h1>
