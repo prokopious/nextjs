@@ -23,10 +23,10 @@ export default function Home({ posts }) {
           </header>
           <img src ={picture} />
           <section>
-            <p className="mb-8 text-lg">{description}</p>  
+            <p className="description">{description}</p>  
             </section>
         <br />
-            <hr />
+            <hr className="hrrr" />
           <br />
        
         </article>

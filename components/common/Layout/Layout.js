@@ -52,8 +52,8 @@ const Header = () => {
 const LargeTitle = () => (
   
     
- <div className="logoo">
-  <NextLogo height="100" />
+ <div className="max-w-screen-sm px-4 py-12 mx-auto antialiased font-body">
+  <NextLogo height="130" />
   <hr />
 </div>
 
