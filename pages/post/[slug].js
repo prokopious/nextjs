@@ -22,7 +22,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
           <p className="text-sm">{frontmatter.date}</p>
         </header>
         <ReactMarkdown
-          className="mb-4 prose lg:prose-lg dark:prose-dark"
+          className="prose"
           escapeHtml={false}
           source={post.content}
           renderers={{ code: CodeBlock, image: MarkdownImage }}
@@ -36,7 +36,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
       <nav className="flex flex-wrap justify-between mb-10">
         {previousPost ? (
           <Link href={"/post/[slug]"} as={`/post/${previousPost.slug}`}>
-            <a className="text-lg font-bold">
+            <a className="next">
               ← {previousPost.frontmatter.title}
             </a>
           </Link>
@@ -45,7 +45,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
         )}
         {nextPost ? (
           <Link href={"/post/[slug]"} as={`/post/${nextPost.slug}`}>
-            <a className="text-lg font-bold">{nextPost.frontmatter.title} →</a>
+            <a className="next">{nextPost.frontmatter.title} →</a>
           </Link>
         ) : (
           <div />
