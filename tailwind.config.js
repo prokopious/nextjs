@@ -1,25 +1,11 @@
 const defaultSans = [
-  "system-ui",
-  "-apple-system",
-  "BlinkMacSystemFont",
-  '"Segoe UI"',
-  "Roboto",
-  '"Helvetica Neue"',
-  "Arial",
-  '"Noto Sans"',
-  "sans-serif",
-  '"Apple Color Emoji"',
-  '"Segoe UI Emoji"',
-  '"Segoe UI Symbol"',
-  '"Noto Color Emoji"',
+  "Baskerville",
+
 ];
 
 const defaultSerif = [
   "Georgia",
-  "Cambria",
-  '"Times New Roman"',
-  "Times",
-  "serif",
+  
 ];
 
 module.exports = {
@@ -115,7 +101,7 @@ module.exports = {
       }),
     },
     fontFamily: {
-      display: ["Open Sans", ...defaultSans],
+      display: ["Merriweather", ...defaultSerif],
       body: ["Merriweather", ...defaultSerif],
     },
   },

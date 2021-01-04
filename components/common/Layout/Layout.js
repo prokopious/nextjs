@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useTheme } from "next-themes";
+import NextLogo from './em.svg'
+
 
 export function Layout({ children }) {
   return (
@@ -37,28 +39,26 @@ const Header = () => {
   const isDarkMode = resolvedTheme === "dark";
 
   return (
-    <header
-      className={clsx("flex items-center justify-between ", {
-        "mb-8": isRoot,
-        "mb-2": !isRoot,
-      })}
-    >
-      <div className={"max-w-md"}>
+    
+   
+      <div>
         {isRoot ? <LargeTitle /> : <SmallTitle />}
       </div>
-      {mounted && (
-        <></>
-      )}
-    </header>
+    
+    
   );
 };
 
 const LargeTitle = () => (
   
-    <Link href="/">
-      <img src="https://imgur.com/P1TtSnc.png" />
+    
+ <div className="logoo">
+  <NextLogo height="100" />
+  <hr />
+</div>
+
       
-    </Link>
+    
   
 );
 

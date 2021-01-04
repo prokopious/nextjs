@@ -9,6 +9,9 @@ font-family: Baskerville Old Face;
   background-color: #eeedbc5b;
 }
 
+.logoo {
+
+}
 
 .post {
 
@@ -74,9 +77,13 @@ font-size: 40px;
   font-size: 30px;
 }
 
-.hh {
-  height: 2px;
-  width: 90%;
-    background-color: black;
-  }
+.logoo {
+
+  
+}
+
+hr {
+  background-color: black;
+  width: 3px;
+}
   
