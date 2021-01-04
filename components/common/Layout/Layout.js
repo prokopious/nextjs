@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useTheme } from "next-themes";
 import NextLogo from './em.svg'
+import styled from 'styled-components'
+
 
 
 export function Layout({ children }) {
@@ -49,24 +51,60 @@ const Header = () => {
   );
 };
 
+const myDivStyle = {
+  display: 'flex',
+  justifyContent: 'space-around'
+};
+
+const Page = styled.div`
+  margin: auto;
+  font-family: "sans-serif";
+  text-align: center;
+
+  
+  @media (min-width: 768px) {
+    max-width: 100px;
+    margin-left: 10%;
+  }
+  @media (min-width: 268px) {
+    max-width: 200px;
+    margin-left: 10%;
+  
+  }
+
+
+
+  @media (min-width: 1000px) {
+    
+   max-width: 300px;
+   margin-left: 10%;
+    
+  }
+`;
+
 const LargeTitle = () => (
   
     
- <div className="max-w-screen-sm px-4 py-12 mx-auto antialiased font-body">
-  <NextLogo height="130" />
+ <Page><div className="max-w-screen-sm px-4 py-12 mx-auto antialiased font-body">
+  <NextLogo />
   <hr />
-</div>
+</div></Page>
 
       
     
   
 );
 
+
+
 const SmallTitle = () => (
   <h1>
     <Link href="/">
     
-            <a className="text-lg font-bold">
+            <a className={clsx(
+          "text-2xl font-black text-black no-underline font-display",
+          "dark:text-white"
+        )}>
               ← home
             </a>
           </Link>
